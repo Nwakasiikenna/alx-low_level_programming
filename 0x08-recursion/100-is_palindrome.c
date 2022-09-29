@@ -12,6 +12,7 @@ int _strlen_recursion(char *s)
 	else
 		return (1 + _strlen_recursion(s + 1));
 }
+
 /**
  * palcheck - checker
  * @x: iterration
@@ -27,6 +28,7 @@ int palcheck(int x, int y, char *s)
 		return (0);
 	return (palcheck(x + 1, y, s));
 }
+
 /**
  * is_palindrome - check if a string is a palindrome
  * @s: string  * Return: 1 if s is a palindrome otherwise 0
